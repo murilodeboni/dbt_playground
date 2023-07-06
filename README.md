@@ -2,9 +2,14 @@ Welcome to your new dbt project!
 
 ### Using the starter project
 
-Try running the following commands:
-- dbt run
-- dbt test
+#### Start postgres server on brew
+- `brew services start postgresql`
+  - `brew services` should show the name of the server with status **started** 
+
+#### Try running the following commands:
+Go into dbt_playground folder and try running:
+- `dbt run`
+- `dbt test`
 
 
 ### Resources:
